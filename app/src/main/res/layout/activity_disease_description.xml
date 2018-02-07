@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_disease_description"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="muryshkin.alexey.diseasediagnosis.Activity.DiseaseDescriptionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="name"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:id="@+id/nameTextView"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="probability"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/probabilityTextView"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="categories"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/categoriesTextView"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="prevalence"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/prevalenceTextView"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="acuteness"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/acutenessTextView"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="severity"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/severityTextView"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="sexFilter"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/sexFilterTextView"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_authentication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="muryshkin.alexey.diseasediagnosis.Activity.AuthenticationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/loginRelativeLayout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:padding="30dp"
+                android:src="@drawable/logo"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/username"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_design_fill_form"
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@drawable/cursor_design_color"
+                android:id="@+id/usernameEditText"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/password"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_design_fill_form"
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@drawable/cursor_design_color"
+                android:inputType="textPassword"
+                android:id="@+id/passwordEditText"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_design_login"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:id="@+id/loginButton"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/signup"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/signUpTextView"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/signUpRelativeLayout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:padding="30dp"
+                android:src="@drawable/logo"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_design_fill_form"
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@drawable/cursor_design_color"
+                android:hint="@string/username"
+                android:textColorHint="#90FF5722"
+                android:id="@+id/usernameRegEditText"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_design_fill_form"
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@drawable/cursor_design_color"
+                android:hint="@string/password"
+                android:textColorHint="#90FF5722"
+                android:inputType="textPassword"
+                android:id="@+id/passwordRegEditText"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_design_fill_form"
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@drawable/cursor_design_color"
+                android:hint="@string/repeat_password"
+                android:textColorHint="#90FF5722"
+                android:inputType="textPassword"
+                android:id="@+id/repeatPasswordRegEditText"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_design_login"
+                android:gravity="center"
+                android:text="@string/signup"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:id="@+id/signUpButton"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/login"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/loginTextView"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

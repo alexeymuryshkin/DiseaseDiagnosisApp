@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="muryshkin.alexey.diseasediagnosis.Fragment.BaseInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Your Sex"
+            android:textSize="25dp"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:id="@+id/maleRadioButton"
+                android:text="@string/male"
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/femaleRadioButton"
+                android:text="@string/female"
+                android:textSize="20dp"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Enter Your Age"
+            android:textSize="25dp"
+            />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_design_fill_form"
+            android:textColor="@color/colorPrimary"
+            android:textCursorDrawable="@drawable/cursor_design_color"
+            android:hint="Your age"
+            android:inputType="numberDecimal"
+            android:textColorHint="#90FF5722"
+            android:id="@+id/ageEditText"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_design_login"
+            android:text="Next"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:id="@+id/nextButton"
+            />
+    </LinearLayout>
+
+</FrameLayout>

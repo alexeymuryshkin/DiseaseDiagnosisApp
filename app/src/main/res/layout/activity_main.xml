@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context="muryshkin.alexey.diseasediagnosis.Activity.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:padding="30dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:id="@+id/logoImageView"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/button_design_main_test"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="Start Questionnaire"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/testButton"
+        />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Disease Diagnosis</string>
+    <string name="preference_file_key">infermedicaapi_prefs</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="registration">Registration</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="diagnosis_url">https://api.infermedica.com/v1/diagnosis</string>
+    <string name="condition_id_url">https://api.infermedica.com/v1/conditions/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

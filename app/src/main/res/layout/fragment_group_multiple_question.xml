@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="muryshkin.alexey.diseasediagnosis.Fragment.GroupMultipleQuestionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/questionTextView"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="Question"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:fadeScrollbars="false"
+                android:id="@+id/answersListView"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_design_login"
+            android:text="Next"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:id="@+id/nextButton"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
